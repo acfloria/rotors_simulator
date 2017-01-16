@@ -4,6 +4,7 @@
   <arg name="enable_logging" default="true"/>
   <arg name="enable_ground_truth" default="true"/>
   <arg name="log_file" default="$(arg uav_name)"/>
+  <arg name="gazebo_debug" default="false"/>
 
   <remap from="/techpod/imu" to="/imu0" />
   <remap from="/techpod/camera" to="/cam0/image_raw" />
@@ -16,6 +17,7 @@
     <arg name="paused" value="false" />
     <arg name="gui" value="true" />
     <arg name="use_sim_time" value="false" />
+    <arg name="debug" value="$(arg gazebo_debug)" />
   </include>
 
   <group ns="$(arg uav_name)">
