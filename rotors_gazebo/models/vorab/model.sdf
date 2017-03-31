@@ -9,7 +9,7 @@
           <heightmap>
             <uri>model://vorab/materials/textures/vorab.png</uri>
             <size>26000 26000 2730</size>
-            <pos>0 0 0</pos>
+            <pos>0 0 -500</pos>
           </heightmap>
         </geometry>
         <surface>
@@ -33,7 +33,7 @@
             </texture>
             <uri>model://vorab/materials/textures/vorab.png</uri>
             <size>26000 26000 2730</size>
-            <pos>0 0 0</pos>
+            <pos>0 0 -500</pos>
           </heightmap>
         </geometry>
       </visual>
